@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from "./components/NavBar";
+import eye_logo from './components/images/eye_logo.png'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className='head'>
+        <img src={eye_logo} alt="eye logo"></img>
+        <h1> Keen Eye Care </h1>
+      </div>
+      <NavBar/>
+    </>
   );
 }
 
