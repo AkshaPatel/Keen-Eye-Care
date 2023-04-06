@@ -9,7 +9,7 @@
     align-content: space-between;
 }
 
-img {
+.head img {
     max-width: 100px;
     max-height: auto;
 }

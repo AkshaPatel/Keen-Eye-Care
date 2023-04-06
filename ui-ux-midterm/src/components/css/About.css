@@ -1,0 +1,13 @@
+.doctors {
+    background-color: #a9fff7;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Kreon:wght@300&display=swap');
+.doctors h1 {
+    font-family: 'Kreon', serif;
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    margin: 0;
+}
