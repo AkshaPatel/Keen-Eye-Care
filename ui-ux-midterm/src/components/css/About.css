@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Kreon:wght@300&display=swap');
 .doctors {
     background-color: #b8e1ff;
+    font-family: 'Kreon', serif;
+    padding-top: 30px;
+    text-align: center;
     margin: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Kreon:wght@300&display=swap');
 .doctors h1, .office h1 {
     font-family: 'Kreon', serif;
     display: flex;
@@ -16,7 +19,31 @@
     background-color: #5abcfe;
 }
 
-.imagelist {
+.office h1 {
+    padding-bottom: 20px;
+
+}
+
+.office img {
+    border-radius: 5px;
+}
+
+.description {
     display: flex;
-    width: auto;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.description p {
+    width: 500px;
+    height: auto;
+    padding: 100px;
+    font-size: x-large;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    align-content: space-evenly;
+    padding: 25px 25px 20px 20px;
 }

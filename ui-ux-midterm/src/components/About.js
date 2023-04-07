@@ -85,7 +85,21 @@ export default function About() {
         </div>
         <div className='office'>
             <h1> The Office </h1>
-            <img src={Office} alt='Eye Doctor Office'></img>
+                <div className='description'>
+                    <img src={Office} alt='Eye Doctor Office'></img>
+                    <p> 
+                        Our state of the art offices are sterile and have the best
+                        equipment to diagnose and treat your eyes. Our industry leading doctors
+                        will acurately diagnose eye diseases and perform vision tests. We have a 
+                        large selection of frames and designs to choose from as well!
+                    </p>
+                </div>
+                <div className='photos'>
+                    <img src='https://media.istockphoto.com/id/1189208254/photo/side-view-shot-of-female-doctor-and-patient-in-ophthalmology-clinic.jpg?s=612x612&w=0&k=20&c=JAn-AoGgm-OzhUTVV4HCsnImH3wpXcsXMa07Sgnr2Co='
+                        alt='eye examination'></img>
+                    <img src='https://media.istockphoto.com/id/1279371084/photo/portrait-of-a-happy-mature-male-patient-undergoing-vision-check-with-special-ophthalmic.jpg?s=612x612&w=0&k=20&c=lDWQNzOPsyfc3c2453XEH2JtrhpCyFcOTVrAVxx-0SU='
+                        alt='vision check'></img>
+                </div>
         </div>
         </>
     );
