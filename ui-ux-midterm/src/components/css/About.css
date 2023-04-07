@@ -31,6 +31,7 @@
 .description {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-content: space-around;
 }
 
@@ -44,6 +45,7 @@
 .photos {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-content: space-evenly;
     padding: 25px 25px 20px 20px;
 }

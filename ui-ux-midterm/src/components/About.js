@@ -97,7 +97,7 @@ export default function About() {
                 <div className='photos'>
                     <img src='https://media.istockphoto.com/id/1189208254/photo/side-view-shot-of-female-doctor-and-patient-in-ophthalmology-clinic.jpg?s=612x612&w=0&k=20&c=JAn-AoGgm-OzhUTVV4HCsnImH3wpXcsXMa07Sgnr2Co='
                         alt='eye examination'></img>
-                    <img src='https://media.istockphoto.com/id/1279371084/photo/portrait-of-a-happy-mature-male-patient-undergoing-vision-check-with-special-ophthalmic.jpg?s=612x612&w=0&k=20&c=lDWQNzOPsyfc3c2453XEH2JtrhpCyFcOTVrAVxx-0SU='
+                    <img src='https://media.istockphoto.com/id/506617772/photo/girl-at-the-opticians-shop-trying-new-glasses.jpg?s=612x612&w=0&k=20&c=OOQio1fTUWdRiY1oDDtmdYmvJ9sb_haHZhF4hRvynwY='
                         alt='vision check'></img>
                 </div>
         </div>
