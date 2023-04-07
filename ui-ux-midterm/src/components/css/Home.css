@@ -24,18 +24,6 @@
     padding: 15% 0%;
 }
 
-.location {
-    display: list-item;
-    justify-content: center;
-
-}
-
-.info {
-    display: flex;
-    justify-content: left;
-    align-content: space-between;
-}
-
 
 .contact {
     background-color: #b8e1ff;

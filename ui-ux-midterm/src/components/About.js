@@ -5,9 +5,11 @@ import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
+
 import Ling from './images/JeanieLingMd.jpeg';
+import Office from './images/eyeOffice.jpeg';
+
 
 export default function About() {
     return (
@@ -30,7 +32,27 @@ export default function About() {
                                 Eric White OD
                             </Typography>
                             <Typography>
-                                University of Miami
+                                University of Miami, practicing for 5 years specializing in Myopia and Hyperopia
+                            </Typography>
+                        </CardContent>
+                        </Card>
+                    </Grid>
+
+
+                    <Grid sx={{px:1.5}} xs={12} sm={6} md={4}>
+                        <Card
+                        sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
+                        <CardMedia
+                            component="img"
+                            image={Ling}
+                            alt="Eye Doctor"
+                            />
+                        <CardContent sx={{ flexGrow: 1 }}>
+                            <Typography gutterBottom variant="h5" component="h2">
+                            Jeanie Ling OD
+                            </Typography>
+                            <Typography>
+                                St. Louis University, practicing for 14 years specializing in LASIK and glucoma
                             </Typography>
                         </CardContent>
                         </Card>
@@ -49,7 +71,8 @@ export default function About() {
                                 Ashley Jones OD
                             </Typography>
                             <Typography>
-                                John Hopkins University
+                                John Hopkins University, practicing for 8 years specializing in cataract surgery
+                                
                             </Typography>
                         </CardContent>
                         <CardActions>
@@ -57,27 +80,12 @@ export default function About() {
                         </CardActions>
                         </Card>
                     </Grid>
-
-                    <Grid sx={{px:1.5}} xs={12} sm={6} md={4}>
-                        <Card
-                        sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
-                        <CardMedia
-                            component="img"
-                            image={Ling}
-                            alt="Eye Doctor"
-                            />
-                        <CardContent sx={{ flexGrow: 1 }}>
-                            <Typography gutterBottom variant="h5" component="h2">
-                            Jeanie Ling OD
-                            </Typography>
-                            <Typography>
-                                St. Louis University
-                            </Typography>
-                        </CardContent>
-                        </Card>
-                    </Grid>
                 </Grid>
             </Container>
+        </div>
+        <div className='office'>
+            <h1> The Office </h1>
+            <img src={Office} alt='Eye Doctor Office'></img>
         </div>
         </>
     );

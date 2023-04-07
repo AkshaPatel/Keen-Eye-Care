@@ -1,13 +1,22 @@
 .doctors {
-    background-color: #a9fff7;
+    background-color: #b8e1ff;
     margin: 0;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Kreon:wght@300&display=swap');
-.doctors h1 {
+.doctors h1, .office h1 {
     font-family: 'Kreon', serif;
     display: flex;
     padding-top: 30px;
     justify-content: center;
     margin: 0;
+}
+
+.office {
+    background-color: #5abcfe;
+}
+
+.imagelist {
+    display: flex;
+    width: auto;
 }
